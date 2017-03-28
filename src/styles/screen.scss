@@ -9,6 +9,28 @@ html {
 
 body {
   @include font-smoothing(on);
-  margin: 0;
+  margin-top: 100px;
   font: $base-text-size / 1 $base-font-family;
+}
+ ul {
+  li {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+    margin-left: 0;
+  }
+}
+
+form {
+  display: flex;
+  justify-content: center;
+
+  input {
+    margin-left: 5px;
+  }
+
+  button {
+    margin-left: 5px;
+  }
 }
